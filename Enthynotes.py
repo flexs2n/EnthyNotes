@@ -13,7 +13,7 @@ from transformers import pipeline
 from youtube_transcript_api import YouTubeTranscriptApi
 
 
-apikey = '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'
+apikey = 'YOUR API KEY'
 openai.api_key = apikey
 # Set the OpenAI API key
 os.environ['OPENAI_API_KEY'] = apikey
